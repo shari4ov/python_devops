@@ -1,6 +1,5 @@
 import wikipedia
 
-
-def wiki(name="War Goddness", length=1):
-    my_wiki = wikipedia.summary(name, length)
-    return my_wiki
+def wiki(name: object = "Azerbaijan", length: object = 1) -> object:
+       my_wiki = wikipedia.summary(name,length)
+       return my_wiki
